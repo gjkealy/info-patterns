@@ -5,6 +5,7 @@
 ******************************************************/
 var pkg = require('./package.json'),
     gulp = require('gulp'),
+    sass = require('gulp-sass'),
     path = require('path'),
     browserSync = require('browser-sync').create(),
     argv = require('minimist')(process.argv.slice(2));;
@@ -57,6 +58,15 @@ gulp.task('patternlab:starterkit-load', function (done) {
 });
 
 /******************************************************
+ * SASS TASKS
+******************************************************/
+gulp.task('sass', function(){
+  return gulp.src('source/css/main.scss')
+    .pipe(sass().on('error', sass.logError))
+    .pipe(gulp.dest('source/css/'));
+});
+
+/******************************************************
  * COPY TASKS
 ******************************************************/
 // JS copy
@@ -92,7 +102,7 @@ gulp.task('pl-copy:data', function(){
 });
 
 // CSS Copy
-gulp.task('pl-copy:css', function(){
+gulp.task('pl-copy:css', ['sass'], function(){
   return gulp.src(path.resolve(paths().source.css, '*.css'))
     .pipe(gulp.dest(path.resolve(paths().public.css)))
     .pipe(browserSync.stream());
@@ -159,7 +169,7 @@ gulp.task('pl-connect', ['pl-build'], function() {
       ]
     }
   });
-  gulp.watch(path.resolve(paths().source.css, '**/*.css'), ['pl-copy:css']);
+  gulp.watch(path.resolve(paths().source.css, '**/*.scss'), ['pl-copy:css']);
 
   gulp.watch(path.resolve(paths().source.styleguide, '**/*.*'), ['pl-copy:styleguide', 'pl-copy:styleguide-css']);
 
