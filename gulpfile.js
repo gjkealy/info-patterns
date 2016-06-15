@@ -61,9 +61,9 @@ gulp.task('patternlab:starterkit-load', function (done) {
  * SASS TASKS
 ******************************************************/
 gulp.task('sass', function(){
-  return gulp.src('source/css/main.scss')
+  return gulp.src('source/assets/css/main.scss')
     .pipe(sass().on('error', sass.logError))
-    .pipe(gulp.dest('source/css/'));
+    .pipe(gulp.dest('source/assets/css/'));
 });
 
 /******************************************************
