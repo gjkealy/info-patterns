@@ -164,22 +164,22 @@
 	],
 	"navbarBrandText" : "Pattern Lab",
 	"navbarNavClass" : "",
-	"navbarNavFirst" : true,
+	"navbarNavFirst" : false,
 	"navbarNavLast" : {
 		"navbarNavClass" : "navbar-right"
 	},
 	"navbarNav" : [
 		{
 			"url" : "#",
-			"text" : "Link"
+			"text" : "About Us"
 		},
 		{
 			"url" : "#",
-			"text" : "Link"
+			"text" : "Contact"
 		},
 		{
 			"url" : "#",
-			"text" : "Dropdown",
+			"text" : "Login",
 			"hasDropdown" : true,
 			"dropdownMenu" : [
 				{ 
@@ -206,7 +206,7 @@
 		}
 	],
 	"navbarFormClass" : "navbar-left",
-	"navbarClass" : "navbar-default",
+	"navbarClass" : "navbar-default navbar-fixed-top",
 	"mediaList" : [
 		{
 			"mediaLeft" : true,

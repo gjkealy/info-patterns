@@ -206,7 +206,7 @@ $input-border-radius-large:      $border-radius-large !default;
 $input-border-radius-small:      $border-radius-small !default;
 
 //** Border color for inputs on focus
-$input-border-focus:             #66afe9 !default;
+$input-border-focus:             $brand-info !default;
 
 //** Placeholder text color
 $input-color-placeholder:        #999 !default;
@@ -363,7 +363,7 @@ $container-lg:                 $container-large-desktop !default;
 //##
 
 // Basics of a navbar
-$navbar-height:                    50px !default;
+$navbar-height:                    55px !default;
 $navbar-margin-bottom:             $line-height-computed !default;
 $navbar-border-radius:             $border-radius-base !default;
 $navbar-padding-horizontal:        floor(($grid-gutter-width / 2)) !default;
@@ -371,11 +371,11 @@ $navbar-padding-vertical:          (($navbar-height - $line-height-computed) / 2
 $navbar-collapse-max-height:       340px !default;
 
 $navbar-default-color:             #777 !default;
-$navbar-default-bg:                #f8f8f8 !default;
-$navbar-default-border:            darken($navbar-default-bg, 6.5%) !default;
+$navbar-default-bg:                #fff !default;
+$navbar-default-border:            $brand-primary; //darken($navbar-default-bg, 6.5%) !default;
 
 // Navbar links
-$navbar-default-link-color:                #777 !default;
+$navbar-default-link-color:                $link-color !default;
 $navbar-default-link-hover-color:          #333 !default;
 $navbar-default-link-hover-bg:             transparent !default;
 $navbar-default-link-active-color:         #555 !default;
@@ -864,7 +864,7 @@ $blockquote-small-color:      $gray-light !default;
 //** Blockquote font size
 $blockquote-font-size:        ($font-size-base * 1.25) !default;
 //** Blockquote border color
-$blockquote-border-color:     $gray-lighter !default;
+$blockquote-border-color:     $brand-primary !default;
 //** Page header border color
 $page-header-border-color:    $gray-lighter !default;
 //** Width of horizontal description list titles
