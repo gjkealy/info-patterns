@@ -233,8 +233,8 @@ th {
 
 @font-face {
   font-family: 'Glyphicons Halflings';
-  src: url("../fonts/bootstrap/glyphicons-halflings-regular.eot");
-  src: url("../fonts/bootstrap/glyphicons-halflings-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/bootstrap/glyphicons-halflings-regular.woff2") format("woff2"), url("../fonts/bootstrap/glyphicons-halflings-regular.woff") format("woff"), url("../fonts/bootstrap/glyphicons-halflings-regular.ttf") format("truetype"), url("../fonts/bootstrap/glyphicons-halflings-regular.svg#glyphicons_halflingsregular") format("svg"); }
+  src: url("../fonts/glyphicons-halflings-regular.eot");
+  src: url("../fonts/glyphicons-halflings-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/glyphicons-halflings-regular.woff2") format("woff2"), url("../fonts/glyphicons-halflings-regular.woff") format("woff"), url("../fonts/glyphicons-halflings-regular.ttf") format("truetype"), url("../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular") format("svg"); }
 
 .glyphicon {
   position: relative;
@@ -5816,4 +5816,19 @@ body {
   padding-top: 55px; }
 
 .wrap-product-overviews {
-  padding-bottom: 48px; }
+  margin-bottom: 60px; }
+
+.wrap-about-us {
+  padding: 58px 0 48px;
+  background-color: #eeeeee; }
+
+.jumbo-image {
+  font-size: 200px;
+  text-align: center; }
+  .jumbo-image span {
+    position: relative;
+    top: 30px; }
+
+.content-info {
+  border-top: 1px solid #dd3333;
+  padding: 58px 0 48px; }

@@ -16,8 +16,8 @@
 <meta http-equiv="expires" content="Tue, 01 Jan 1980 1:00:00 GMT" />
 <meta http-equiv="pragma" content="no-cache" />
 
-<link rel="stylesheet" href="../../styleguide/css/styleguide.min.css?1466115143229" media="all">
-<link rel="stylesheet" href="../../styleguide/css/styleguide-specific.min.css?1466115143229" media="all" />
+<link rel="stylesheet" href="../../styleguide/css/styleguide.min.css?1466129189703" media="all">
+<link rel="stylesheet" href="../../styleguide/css/styleguide-specific.min.css?1466129189703" media="all" />
 <link rel="stylesheet" href="../../styleguide/css/prism-typeahead.min.css" media="all" />
 
 		<!-- End Pattern Lab -->
@@ -45,7 +45,7 @@
 
 	</div>
 	<div class="sg-pattern-example">
-		<nav class="navbar navbar-default navbar-fixed-top">
+		<nav class="navbar navbar-default">
 	<div class="container">
     <!-- Brand and toggle get grouped for better mobile display -->
     	<div class="navbar-header"> <!-- d -->
@@ -87,51 +87,29 @@
 		{"cssEnabled":false,"patternLineageExists":true,"patternLineages":[{"lineagePattern":"molecules-navbar-nav","lineagePath":"../../patterns/01-molecules-03-navigation-16-navbar-nav/01-molecules-03-navigation-16-navbar-nav.html"}],"lineage":[{"lineagePattern":"molecules-navbar-nav","lineagePath":"../../patterns/01-molecules-03-navigation-16-navbar-nav/01-molecules-03-navigation-16-navbar-nav.html"}],"patternLineageRExists":true,"patternLineagesR":[{"lineagePattern":"templates-front-page","lineagePath":"../../patterns/03-templates-00-front-page/03-templates-00-front-page.html"}],"lineageR":[{"lineagePattern":"templates-front-page","lineagePath":"../../patterns/03-templates-00-front-page/03-templates-00-front-page.html"}],"patternLineageEExists":true,"patternDesc":"<hr>\n<h2>title: Navigation Bar</h2>\n<p>Default navbar\n&lt;p&gt;Navbars are responsive meta components that serve as navigation headers for your application or site. They begin collapsed (and are toggleable) in mobile views and become horizontal as the available viewport width increases.&lt;/p&gt;\n&lt;p&gt;&lt;strong class=&quot;text-danger&quot;&gt;Justified navbar nav links are currently not supported.&lt;/strong&gt;&lt;/p&gt;</p>\n<pre><code>&lt;h4&gt;Overflowing content&lt;/h4&gt;\n&lt;p&gt;Since Bootstrap doesn't know how much space the content in your navbar needs, you might run into issues with content wrapping into a second row. To resolve this, you can:&lt;/p&gt;\n&lt;ol type=&quot;a&quot;&gt;\n  &lt;li&gt;Reduce the amount or width of navbar items.&lt;/li&gt;\n  &lt;li&gt;Hide certain navbar items at certain screen sizes using &lt;a href=&quot;../css/#responsive-utilities&quot;&gt;responsive utility classes&lt;/a&gt;.&lt;/li&gt;\n  &lt;li&gt;Change the point at which your navbar switches between collapsed and horizontal mode. Customize the &lt;code&gt;@grid-float-breakpoint&lt;/code&gt; variable or add your own media query.&lt;/li&gt;\n&lt;/ol&gt;\n\n&lt;p&gt;If JavaScript is disabled and the viewport is narrow enough that the navbar collapses, it will be impossible to expand the navbar and view the content within the &lt;code&gt;.navbar-collapse&lt;/code&gt;.&lt;/p&gt;\n&lt;p&gt;The responsive navbar requires the &lt;a href=&quot;../javascript/#collapse&quot;&gt;collapse plugin&lt;/a&gt; to be included in your version of Bootstrap.&lt;/p&gt;\n\n&lt;h4&gt;Changing the collapsed mobile navbar breakpoint&lt;/h4&gt;\n&lt;p&gt;The navbar collapses into its vertical mobile view when the viewport is narrower than &lt;code&gt;@grid-float-breakpoint&lt;/code&gt;, and expands into its horizontal non-mobile view when the viewport is at least &lt;code&gt;@grid-float-breakpoint&lt;/code&gt; in width. Adjust this variable in the Less source to control when the navbar collapses/expands. The default value is &lt;code&gt;768px&lt;/code&gt; (the smallest &quot;small&quot; or &quot;tablet&quot; screen).&lt;/p&gt;\n\n&lt;h4&gt;Make navbars accessible&lt;/h4&gt;\n&lt;p&gt;Be sure to use a &lt;code&gt;&amp;lt;nav&amp;gt;&lt;/code&gt; element or, if using a more generic element such as a &lt;code&gt;&amp;lt;div&amp;gt;&lt;/code&gt;, add a &lt;code&gt;role=&quot;navigation&quot;&lt;/code&gt; to every navbar to explicitly identify it as a landmark region for users of assistive technologies.&lt;/p&gt;</code></pre>\n","patternBreadcrumb":"organisms > navigation","patternExtension":".mustache","patternName":"Navbar","patternPartial":"organisms-navbar","patternState":"","extraOutput":{}}
 	</script>
 </div><!--end .sg-pattern-->
-<div id="organisms-navbar-variants" class="sg-pattern">
+<div id="organisms-footer" class="sg-pattern">
 	<div class="sg-pattern-head">
 		<h3 class="sg-pattern-title">
-            <a href="../../patterns/02-organisms-00-navigation-01-navbar-variants&#x2F;02-organisms-00-navigation-01-navbar-variants.html" class="patternLink" data-patternpartial="organisms-navbar-variants" title="Link to Pattern">
-                Navbar Variants
+            <a href="../../patterns/02-organisms-00-navigation-01-footer&#x2F;02-organisms-00-navigation-01-footer.html" class="patternLink" data-patternpartial="organisms-footer" title="Link to Pattern">
+                Footer
                 
             </a>
         </h3>
 		<div class="sg-pattern-breadcrumb"></div>
-		<a href="#" data-patternpartial="organisms-navbar-variants" title="View Pattern Info" id="sg-pattern-extra-toggle-organisms-navbar-variants" class="sg-pattern-extra-toggle"><span>&#9660;</span></a>
+		<a href="#" data-patternpartial="organisms-footer" title="View Pattern Info" id="sg-pattern-extra-toggle-organisms-footer" class="sg-pattern-extra-toggle"><span>&#9660;</span></a>
 	</div>
-	<div class="sg-pattern-extra" id="sg-pattern-extra-organisms-navbar-variants">
+	<div class="sg-pattern-extra" id="sg-pattern-extra-organisms-footer">
 
 	</div>
 	<div class="sg-pattern-example">
-		<h2 id="navbar-inverted">Inverted navbar</h2>
-<p>Modify the look of the navbar by adding <code>.navbar-inverse</code>.</p>
-<nav class="navbar navbar-inverse">
-	<div class="container-fluid">
-  <!-- Brand and toggle get grouped for better mobile display -->
-  		<div class="navbar-header">
-  			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-9" aria-expanded="false">
-  				<span class="sr-only">Toggle navigation</span>
-  				<span class="icon-bar"></span>
-  				<span class="icon-bar"></span>
-  				<span class="icon-bar"></span>
-  			</button>
-  			<a class="navbar-brand" href="#">Brand</a>
-  		</div>
-
-    <!-- Collect the nav links, forms, and other content for toggling -->
-		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-9">
-    		<ul class="nav navbar-nav">
-				<li class="active"><a href="#">Home</a></li>
-				<li><a href="#">Link</a></li>
-				<li><a href="#">Link</a></li>
-    		</ul>
-  		</div><!-- /.navbar-collapse -->
-	</div><!-- /.container-fluid -->
-</nav>
-
-
+		<div class="content-info">
+	<div class="container">
+		
 	</div>
-	<script type="text/json" id="sg-pattern-data-organisms-navbar-variants" class="sg-pattern-data">
-		{"cssEnabled":false,"patternLineageExists":false,"patternLineages":[],"lineage":[],"patternLineageRExists":false,"patternLineagesR":[],"lineageR":[],"patternLineageEExists":false,"patternDesc":"<hr>\n<h2>title: Navigation Bar</h2>\n","patternBreadcrumb":"organisms > navigation","patternExtension":".mustache","patternName":"Navbar Variants","patternPartial":"organisms-navbar-variants","patternState":"","extraOutput":{}}
+</div>
+	</div>
+	<script type="text/json" id="sg-pattern-data-organisms-footer" class="sg-pattern-data">
+		{"cssEnabled":false,"patternLineageExists":false,"patternLineages":[],"lineage":[],"patternLineageRExists":true,"patternLineagesR":[{"lineagePattern":"templates-front-page","lineagePath":"../../patterns/03-templates-00-front-page/03-templates-00-front-page.html"}],"lineageR":[{"lineagePattern":"templates-front-page","lineagePath":"../../patterns/03-templates-00-front-page/03-templates-00-front-page.html"}],"patternLineageEExists":true,"patternDesc":"","patternBreadcrumb":"organisms > navigation","patternExtension":".mustache","patternName":"Footer","patternPartial":"organisms-footer","patternState":"","extraOutput":{}}
 	</script>
 </div><!--end .sg-pattern-->
 	</div> <!--end #sg-patterns-->
@@ -185,10 +163,10 @@
 	}
 </script>
 
-<script id="pl-js-polyfill-insert-1466115143229">
+<script id="pl-js-polyfill-insert-1466129189703">
 	(function() {
 		if (self != top) {
-			var cb = '1466115143229';
+			var cb = '1466129189703';
 			var js = [];
 			if (typeof document !== "undefined" && !("classList" in document.documentElement)) {
 				js.push("styleguide/bower_components/classList.min.js");
@@ -198,10 +176,10 @@
 	})();
 </script>
 
-<script id="pl-js-insert-1466115143229">
+<script id="pl-js-insert-1466129189703">
 	(function() {
 		if (self != top) {
-			var cb = '1466115143229';
+			var cb = '1466129189703';
 			var js = [ { "src": "styleguide/bower_components/jwerty.min.js", "dep": [ { "src": "annotations/annotations.js", "dep": [ "styleguide/js/patternlab-pattern.min.js" ] } ] } ];
 			scriptLoader.run(js,cb,'pl-js-insert');
 		}
