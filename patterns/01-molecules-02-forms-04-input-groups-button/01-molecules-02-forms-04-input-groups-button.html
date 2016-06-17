@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html class="">
+	<head>
+		<title>Pattern Lab</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width" />
+		
+		<link rel="stylesheet" href="../../css/main.css" media="all" />
+		<link href="https://fonts.googleapis.com/css?family=Montserrat|Source+Sans+Pro:400,400i,700" rel="stylesheet"> 
+		
+		<!-- Begin Pattern Lab (Required for Pattern Lab to run properly) -->
+		<!-- never cache patterns -->
+<meta http-equiv="cache-control" content="max-age=0" />
+<meta http-equiv="cache-control" content="no-cache" />
+<meta http-equiv="expires" content="0" />
+<meta http-equiv="expires" content="Tue, 01 Jan 1980 1:00:00 GMT" />
+<meta http-equiv="pragma" content="no-cache" />
+
+<link rel="stylesheet" href="../../styleguide/css/styleguide.min.css?1466115143229" media="all">
+<link rel="stylesheet" href="../../styleguide/css/styleguide-specific.min.css?1466115143229" media="all" />
+<link rel="stylesheet" href="../../styleguide/css/prism-typeahead.min.css" media="all" />
+
+		<!-- End Pattern Lab -->
+	
+	</head>
+	<body class="">	
+		<div class="input-group">
+	<span class="input-group-btn">
+		<button type="button" class="btn btn-default">Call To Action</button>
+ 
+	</span>
+	<input type="text" class="form-control" placeholder="Placeholder Text" aria-describedby="basic-addon1">
+
+
+
+
+
+</div><!-- /input-group -->
+
+
+<script src="../../js/vendor/jquery.min.js"></script>
+<script src="../../js/bootstrap.js"></script>
+			
+	<!--DO NOT REMOVE-->
+	<script>
+	var patternData = {"cssEnabled":false,"patternLineageExists":true,"patternLineages":[{"lineagePattern":"atoms-button","lineagePath":"../../patterns/00-atoms-05-buttons-00-button/00-atoms-05-buttons-00-button.html"},{"lineagePattern":"atoms-input","lineagePath":"../../patterns/00-atoms-04-forms-00-input/00-atoms-04-forms-00-input.html"}],"lineage":[{"lineagePattern":"atoms-button","lineagePath":"../../patterns/00-atoms-05-buttons-00-button/00-atoms-05-buttons-00-button.html"},{"lineagePattern":"atoms-input","lineagePath":"../../patterns/00-atoms-04-forms-00-input/00-atoms-04-forms-00-input.html"}],"patternLineageRExists":false,"patternLineagesR":[],"lineageR":[],"patternLineageEExists":true,"patternDesc":"<hr>\n<h2>title: Input Groups Button</h2>\n<p>&lt;h2 id=&quot;input-groups-buttons&quot;&gt;Button addons&lt;/h2&gt;\n&lt;p&gt;Buttons in input groups are a bit different and require one extra level of nesting. Instead of &lt;code&gt;.input-group-addon&lt;/code&gt;, you'll need to use &lt;code&gt;.input-group-btn&lt;/code&gt; to wrap the buttons. This is required due to default browser styles that cannot be overridden.&lt;/p&gt;</p>\n","patternBreadcrumb":"molecules > forms","patternExtension":".mustache","patternName":"Input Groups Button","patternPartial":"molecules-input-groups-button","patternState":"","extraOutput":{}};
+</script>
+<script type="text/json" class="sg-pattern-data">
+	{"cssEnabled":false,"patternLineageExists":true,"patternLineages":[{"lineagePattern":"atoms-button","lineagePath":"../../patterns/00-atoms-05-buttons-00-button/00-atoms-05-buttons-00-button.html"},{"lineagePattern":"atoms-input","lineagePath":"../../patterns/00-atoms-04-forms-00-input/00-atoms-04-forms-00-input.html"}],"lineage":[{"lineagePattern":"atoms-button","lineagePath":"../../patterns/00-atoms-05-buttons-00-button/00-atoms-05-buttons-00-button.html"},{"lineagePattern":"atoms-input","lineagePath":"../../patterns/00-atoms-04-forms-00-input/00-atoms-04-forms-00-input.html"}],"patternLineageRExists":false,"patternLineagesR":[],"lineageR":[],"patternLineageEExists":true,"patternDesc":"<hr>\n<h2>title: Input Groups Button</h2>\n<p>&lt;h2 id=&quot;input-groups-buttons&quot;&gt;Button addons&lt;/h2&gt;\n&lt;p&gt;Buttons in input groups are a bit different and require one extra level of nesting. Instead of &lt;code&gt;.input-group-addon&lt;/code&gt;, you'll need to use &lt;code&gt;.input-group-btn&lt;/code&gt; to wrap the buttons. This is required due to default browser styles that cannot be overridden.&lt;/p&gt;</p>\n","patternBreadcrumb":"molecules > forms","patternExtension":".mustache","patternName":"Input Groups Button","patternPartial":"molecules-input-groups-button","patternState":"","extraOutput":{}}
+</script>
+
+<script>
+	/*!
+	 * scriptLoader - v0.1
+	 *
+	 * Copyright (c) 2014 Dave Olsen, http://dmolsen.com
+	 * Licensed under the MIT license
+	 *
+	 */
+	
+	var scriptLoader = {
+		
+		run: function(js,cb,target) {
+			var s  = document.getElementById(target+'-'+cb);
+			for (var i = 0; i < js.length; i++) {
+				var src = (typeof js[i] != "string") ? js[i].src : js[i];
+				var c   = document.createElement('script');
+				c.src   = '../../'+src+'?'+cb;
+				if (typeof js[i] != "string") {
+					if (js[i].dep !== undefined) {
+						c.onload = function(dep,cb,target) {
+							return function() {
+								scriptLoader.run(dep,cb,target);
+							}
+						}(js[i].dep,cb,target);
+					}
+				}
+				s.parentNode.insertBefore(c,s);
+			}
+		}
+		
+	}
+</script>
+
+<script id="pl-js-polyfill-insert-1466115143229">
+	(function() {
+		if (self != top) {
+			var cb = '1466115143229';
+			var js = [];
+			if (typeof document !== "undefined" && !("classList" in document.documentElement)) {
+				js.push("styleguide/bower_components/classList.min.js");
+			}
+			scriptLoader.run(js,cb,'pl-js-polyfill-insert');
+		}
+	})();
+</script>
+
+<script id="pl-js-insert-1466115143229">
+	(function() {
+		if (self != top) {
+			var cb = '1466115143229';
+			var js = [ { "src": "styleguide/bower_components/jwerty.min.js", "dep": [ { "src": "annotations/annotations.js", "dep": [ "styleguide/js/patternlab-pattern.min.js" ] } ] } ];
+			scriptLoader.run(js,cb,'pl-js-insert');
+		}
+	})();
+</script>
+
+	
+	</body>
+</html>

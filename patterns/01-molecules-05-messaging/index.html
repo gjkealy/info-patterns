@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html class="">
+	<head>
+		<title></title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width" />
+		
+		<link rel="stylesheet" href="../../css/main.css" media="all" />
+		<link href="https://fonts.googleapis.com/css?family=Montserrat|Source+Sans+Pro:400,400i,700" rel="stylesheet"> 
+		
+		<!-- Begin Pattern Lab (Required for Pattern Lab to run properly) -->
+		<!-- never cache patterns -->
+<meta http-equiv="cache-control" content="max-age=0" />
+<meta http-equiv="cache-control" content="no-cache" />
+<meta http-equiv="expires" content="0" />
+<meta http-equiv="expires" content="Tue, 01 Jan 1980 1:00:00 GMT" />
+<meta http-equiv="pragma" content="no-cache" />
+
+<link rel="stylesheet" href="../../styleguide/css/styleguide.min.css?1466115143229" media="all">
+<link rel="stylesheet" href="../../styleguide/css/styleguide-specific.min.css?1466115143229" media="all" />
+<link rel="stylesheet" href="../../styleguide/css/prism-typeahead.min.css" media="all" />
+
+		<!-- End Pattern Lab -->
+	
+	</head>
+	<body class="">	
+		
+<!-- View All Patterns in a Pattern Sub-Type -->
+<div class="sg-main" role="main">
+	
+	<!-- Patterns -->
+	<div id="sg-patterns">
+<div id="molecules-alerts" class="sg-pattern">
+	<div class="sg-pattern-head">
+		<h3 class="sg-pattern-title">
+            <a href="../../patterns/01-molecules-05-messaging-00-alerts&#x2F;01-molecules-05-messaging-00-alerts.html" class="patternLink" data-patternpartial="molecules-alerts" title="Link to Pattern">
+                Alerts
+                
+            </a>
+        </h3>
+		<div class="sg-pattern-breadcrumb"></div>
+		<a href="#" data-patternpartial="molecules-alerts" title="View Pattern Info" id="sg-pattern-extra-toggle-molecules-alerts" class="sg-pattern-extra-toggle"><span>&#9660;</span></a>
+	</div>
+	<div class="sg-pattern-extra" id="sg-pattern-extra-molecules-alerts">
+
+	</div>
+	<div class="sg-pattern-example">
+		<div class="alert alert-success" role="alert">
+	I am alerting you about something
+</div>
+
+	</div>
+	<script type="text/json" id="sg-pattern-data-molecules-alerts" class="sg-pattern-data">
+		{"cssEnabled":false,"patternLineageExists":false,"patternLineages":[],"lineage":[],"patternLineageRExists":false,"patternLineagesR":[],"lineageR":[],"patternLineageEExists":false,"patternDesc":"<hr>\n<h2>title: Alerts</h2>\n<p>&lt;p class=&quot;lead&quot;&gt;Provide contextual feedback messages for typical user actions with the handful of available and flexible alert messages.&lt;/p&gt;</p>\n<p>&lt;h2 id=&quot;alerts-examples&quot;&gt;Examples&lt;/h2&gt;\n&lt;p&gt;Wrap any text and an optional dismiss button in &lt;code&gt;.alert&lt;/code&gt; and one of the four contextual classes (e.g., &lt;code&gt;.alert-success&lt;/code&gt;) for basic alert messages.&lt;/p&gt;</p>\n<p>&lt;div class=&quot;bs-callout bs-callout-info&quot; id=&quot;callout-alerts-no-default&quot;&gt;\n&lt;h4&gt;No default class&lt;/h4&gt;\n&lt;p&gt;Alerts don't have default classes, only base and modifier classes. A default gray alert doesn't make too much sense, so you're required to specify a type via contextual class. Choose from success, info, warning, or danger.&lt;/p&gt;\n&lt;/div&gt;</p>\n","patternBreadcrumb":"molecules > messaging","patternExtension":".mustache","patternName":"Alerts","patternPartial":"molecules-alerts","patternState":"","extraOutput":{}}
+	</script>
+</div><!--end .sg-pattern-->
+<div id="molecules-alerts-variants" class="sg-pattern">
+	<div class="sg-pattern-head">
+		<h3 class="sg-pattern-title">
+            <a href="../../patterns/01-molecules-05-messaging-01-alerts-variants&#x2F;01-molecules-05-messaging-01-alerts-variants.html" class="patternLink" data-patternpartial="molecules-alerts-variants" title="Link to Pattern">
+                Alerts Variants
+                
+            </a>
+        </h3>
+		<div class="sg-pattern-breadcrumb"></div>
+		<a href="#" data-patternpartial="molecules-alerts-variants" title="View Pattern Info" id="sg-pattern-extra-toggle-molecules-alerts-variants" class="sg-pattern-extra-toggle"><span>&#9660;</span></a>
+	</div>
+	<div class="sg-pattern-extra" id="sg-pattern-extra-molecules-alerts-variants">
+
+	</div>
+	<div class="sg-pattern-example">
+		<div class="alert alert-success" role="alert">
+	<strong>Well done!</strong> You successfully read this important alert message.
+</div>
+<div class="alert alert-info" role="alert">
+	<strong>Heads up!</strong> This alert needs your attention, but it's not super important.
+</div>
+<div class="alert alert-warning" role="alert">
+	<strong>Warning!</strong> Better check yourself, you're not looking too good.
+</div>
+<div class="alert alert-danger" role="alert">
+	<strong>Oh snap!</strong> Change a few things up and try submitting again.
+</div>
+
+<h2 id="alerts-dismissible">Dismissible alerts</h2>
+<p>Build on any alert by adding an optional <code>.alert-dismissible</code> and close button.</p>
+
+<h4>Requires JavaScript alert plugin</h4>
+<p>For fully functioning, dismissible alerts, you must use the <a href="../javascript/#alerts">alerts JavaScript plugin</a>.</p>
+<div class="alert alert-warning alert-dismissible" role="alert">
+	<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+    <strong>Warning!</strong> Better check yourself, you're not looking too good.
+</div>
+
+<h4>Ensure proper behavior across all devices</h4>
+<p>Be sure to use the <code>&lt;button&gt;</code> element with the <code>data-dismiss="alert"</code> data attribute.</p>
+
+<h2 id="alerts-links">Links in alerts</h2>
+<p>Use the <code>.alert-link</code> utility class to quickly provide matching colored links within any alert.</p>
+
+<div class="alert alert-success" role="alert">
+	<strong>Well done!</strong> You successfully read <a href="#" class="alert-link">this important alert message</a>.
+</div>
+<div class="alert alert-info" role="alert">
+  	<strong>Heads up!</strong> This <a href="#" class="alert-link">alert needs your attention</a>, but it's not super important.
+</div>
+<div class="alert alert-warning" role="alert">
+  	<strong>Warning!</strong> Better check yourself, you're <a href="#" class="alert-link">not looking too good</a>.
+</div>
+<div class="alert alert-danger" role="alert">
+  	<strong>Oh snap!</strong> <a href="#" class="alert-link">Change a few things up</a> and try submitting again.
+</div>
+	</div>
+	<script type="text/json" id="sg-pattern-data-molecules-alerts-variants" class="sg-pattern-data">
+		{"cssEnabled":false,"patternLineageExists":false,"patternLineages":[],"lineage":[],"patternLineageRExists":false,"patternLineagesR":[],"lineageR":[],"patternLineageEExists":false,"patternDesc":"<hr>\n<h2>title: Alerts</h2>\n","patternBreadcrumb":"molecules > messaging","patternExtension":".mustache","patternName":"Alerts Variants","patternPartial":"molecules-alerts-variants","patternState":"","extraOutput":{}}
+	</script>
+</div><!--end .sg-pattern-->
+	</div> <!--end #sg-patterns-->
+
+</div><!--end .sg-main-->
+
+<!-- JS to hook everything together and do annotations -->
+<script>
+	// handle injection of items from builder
+	var patternPartial = "viewall-molecules-messaging";
+	var lineage = "";
+</script>
+<script src="../../js/vendor/jquery.min.js"></script>
+<script src="../../js/bootstrap.js"></script>
+			
+	<!--DO NOT REMOVE-->
+	<script>
+	var patternData = {"patternPartial":"viewall-molecules-messaging"};
+</script>
+
+<script>
+	/*!
+	 * scriptLoader - v0.1
+	 *
+	 * Copyright (c) 2014 Dave Olsen, http://dmolsen.com
+	 * Licensed under the MIT license
+	 *
+	 */
+	
+	var scriptLoader = {
+		
+		run: function(js,cb,target) {
+			var s  = document.getElementById(target+'-'+cb);
+			for (var i = 0; i < js.length; i++) {
+				var src = (typeof js[i] != "string") ? js[i].src : js[i];
+				var c   = document.createElement('script');
+				c.src   = '../../'+src+'?'+cb;
+				if (typeof js[i] != "string") {
+					if (js[i].dep !== undefined) {
+						c.onload = function(dep,cb,target) {
+							return function() {
+								scriptLoader.run(dep,cb,target);
+							}
+						}(js[i].dep,cb,target);
+					}
+				}
+				s.parentNode.insertBefore(c,s);
+			}
+		}
+		
+	}
+</script>
+
+<script id="pl-js-polyfill-insert-1466115143229">
+	(function() {
+		if (self != top) {
+			var cb = '1466115143229';
+			var js = [];
+			if (typeof document !== "undefined" && !("classList" in document.documentElement)) {
+				js.push("styleguide/bower_components/classList.min.js");
+			}
+			scriptLoader.run(js,cb,'pl-js-polyfill-insert');
+		}
+	})();
+</script>
+
+<script id="pl-js-insert-1466115143229">
+	(function() {
+		if (self != top) {
+			var cb = '1466115143229';
+			var js = [ { "src": "styleguide/bower_components/jwerty.min.js", "dep": [ { "src": "annotations/annotations.js", "dep": [ "styleguide/js/patternlab-pattern.min.js" ] } ] } ];
+			scriptLoader.run(js,cb,'pl-js-insert');
+		}
+	})();
+</script>
+
+	
+	</body>
+</html>
